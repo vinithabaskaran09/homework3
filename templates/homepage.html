@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+Welcome to the Site
+
+<p>#2) Create a form on this page that asks for the user's name.</p>
+<body>
+    <form action="/save-name">
+        <label>What is your name? <input type="text" name="person"></label>
+        <input type = "submit">
+    </form>
+</body>
+
+
+
+{% endblock %}
